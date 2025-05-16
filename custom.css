@@ -1,0 +1,38 @@
+
+
+.bg-1::before {
+    content: url('/assets/image-18.png');
+    
+    position: absolute;
+    z-index: -1;
+    bottom: 75px;
+}
+
+.bg-2::before {
+    content: url('/assets/image-19.png');
+    
+    position: absolute;
+    z-index: -1;
+    bottom: 75px;
+}
+
+.bg-3::before {
+    content: url('/assets/image-20.png');
+    
+    position: absolute;
+    z-index: -1;
+    bottom: 75px;
+}
+
+
+.bg::before {
+    display: none;
+}
+
+
+/* Desktop and up (e.g., ≥ 1024px) */
+@media (min-width: 1366px) {
+  .bg::before {
+    display: block;
+}
+}
